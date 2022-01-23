@@ -14,11 +14,11 @@ body {
 }
 
 h1 {
-
     position: fixed;
     top: 5rem;
     left: 5rem;
     z-index: 1;
+    font-variation-settings: "wght" 100, "wdth" 100;
 }
 
 nav {

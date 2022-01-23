@@ -4,7 +4,8 @@ const h1 = document.querySelector("h1");
 window.addEventListener("scroll", function () {
     const pixels = window.scrollY;
 
-    const fontSize = (pixels * .2 + 12) / 16;
+    const fontWeight = pixels * .4 + 100;
+    const fontWidth = pixels * .1 + 100;
 
-    h1.style.fontSize = fontSize + "rem";
+    h1.style.fontVariationSettings = `"wght" ${fontWeight}, "wdth" ${fontWidth}`
 })
