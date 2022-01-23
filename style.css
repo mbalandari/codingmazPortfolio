@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    background-color: #000000;
+    color: #ffffff;
+    margin: 50vh 2.5rem 2.5rem 2.5rem;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+
+    position: fixed;
+    top: 5rem;
+    left: 5rem;
+    z-index: 1;
+}
+
+nav {
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    z-index: 1;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1.8rem;
+}
+
+img {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    object-fit: cover;
+    position: sticky;
+    top: 2.5rem;
+}
